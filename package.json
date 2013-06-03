@@ -1,23 +1,30 @@
 {
-    "name": "co-googl",
-    "description": "googl shortUrls extenstion for CompoundJS",
-    "version": "0.0.1-1",
-    "author": {
-        "name": "Michael Labieniec"
-    },
-    "main": "index.js",
-    "directories": {
-        "lib": "lib"
-    },
-    "devDependencies": {
-        "mocha": "1.8.1",
-        "should": "1.2.2",
-        "semicov": "0.1.1",
-        "compound": "1.1.5-14",
-        "ejs": "0.8.3"
-    },
-    "engines": {
-        "node": "*"
-    },
-    "readmeFilename": "README.md"
+  "name": "co-googl",
+  "description": "googl shortUrls extenstion for CompoundJS",
+  "version": "0.0.3",
+  "author": {
+    "name": "Michael Labieniec"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mlabieniec/co-goo.gl.git"
+  },
+  "dependencies": {
+     "goo.gl": "0.0.2"
+  },
+  "devDependencies": {
+    "mocha": "1.8.1",
+    "should": "1.2.2"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "readmeFilename": "README.md",
+  "readme": "### goo.gl url shortener for compoundjs ###\nJust a simple wrapper for https://github.com/kaimallea/node-googl for compoundjs\n",
+  "bugs": {
+    "url": "https://github.com/mlabieniec/co-goo.gl/issues"
+  },
+  "_id": "co-googl@0.0.1-1",
+  "_from": "co-googl@"
 }
